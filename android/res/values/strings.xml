@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Nikhef eduroam Wifi helper</string>
+
+	<string name="TITLE_LOGON">Please logon</string>
+	<string name="Username">Username</string>
+	<string name="Password">Password</string>
+	<string name="Logon">Log on</string>
+	<string name="WIFI_ENABLE_MSG">Wi-Fi is currently disabled. Do you want to enable it now?</string>
+	<string name="YES">Yes</string>
+	<string name="NO">No</string>	
+	<string name="NA">N/A</string>
+	<string name="BSSID">BSSID</string>
+	
+	
+	<string name="ABOUT_TITLE">About</string>
+	<string name="EXIT_TITLE">Exit</string>
+		
+	<string name="ABOUT_CONTENT">Nikhef eduroam Wifi helper. Small helper application to provision an EAP-TLS certificate on your device, signed using your nikhef credentials.</string>
+	<string name="UNCHANGED">Unchanged</string>
+	<string name="CHANGED">Changed</string>
+	<string name="NIKHEF_LOGO">Nikhef Logo</string>
+</resources>

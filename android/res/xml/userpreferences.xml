@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/TITLE_LOGON">
+	<PreferenceCategory android:title="SSID"
+		android:orderingFromXml="true">
+		<EditTextPreference android:key="Username"
+			android:summary="@string/Username" android:title="@string/Username"></EditTextPreference>
+		<EditTextPreference android:key="Password" android:summary="@string/Username" android:title="@string/Password"  android:password="true"></EditTextPreference>
+			
+</PreferenceCategory>
+</PreferenceScreen>

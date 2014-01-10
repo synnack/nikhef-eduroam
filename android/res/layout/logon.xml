@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".WiFiEduroam"
+    android:background="#fff"
+    android:id="@+id/logonLayout"
+    android:orientation="vertical">
+
+	<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/NIKHEF_LOGO"
+        android:src="@drawable/nikheflogo"
+        android:padding="20dp" />
+	
+	<TableLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+		<TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/username_label"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/Username"
+	            android:textColor="#000" />
+	
+	        <EditText
+	            android:id="@+id/username"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="text"
+	            android:padding="5dp"
+	            android:textColor="#000"
+	            android:textCursorDrawable="@null"
+	            android:background="@drawable/rectangle">
+	
+	            <requestFocus />
+	        </EditText>
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/password_label"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/Password"
+	            android:textColor="#000000" />
+	
+	        <EditText
+	            android:id="@+id/password"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPassword"
+	            android:padding="5dp"
+	            android:textColor="#000"
+	            android:textCursorDrawable="@null"
+	            android:background="@drawable/rectangle"
+	             />
+	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical|center_horizontal" >
+	
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/Logon" />
+	    </TableRow>
+	</TableLayout>
+</LinearLayout>
